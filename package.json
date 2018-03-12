@@ -1,0 +1,22 @@
+{
+  "name": "neversadsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giagnus64/NeverSadSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giagnus64/NeverSadSite/issues"
+  },
+  "homepage": "https://github.com/Giagnus64/NeverSadSite#readme"
+}
