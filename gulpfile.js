@@ -9,6 +9,7 @@ gulp.task('default', function(){
 //start defining browser-sync task
 gulp.task('watch', function(){
 	browserSync.init({
+		files:["./app/assets/css/*.css"],
 		//notify:false,
 		server:{
 			baseDir:"app"
@@ -19,9 +20,6 @@ gulp.task('watch', function(){
 	watch('./app/index.html', function(){
 		browserSync.reload();
 	});
-
-	//inject css on change
-	watch('./app/assets/css/*.css', 'cssInjector');
 });
 
 gulp.task('cssInjector', function(){
