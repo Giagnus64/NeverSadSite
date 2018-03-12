@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/Giagnus64/NeverSadSite/issues"
   },
-  "homepage": "https://github.com/Giagnus64/NeverSadSite#readme"
+  "homepage": "https://github.com/Giagnus64/NeverSadSite#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^4.0.0",
+    "gulp-hub": "^0.8.0",
+    "gulp-watch": "^5.0.0"
+  }
 }

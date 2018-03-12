@@ -1,0 +1,118 @@
+/* CSS for non index.html pages */
+
+html, body{
+	width:100%;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+}
+nav{
+	font-family:'courier new';
+	font-weight:bold;
+}
+.navbar-dark a.navbar-brand, .nav-item a .nav-link{
+	color:#eff5ff;
+	text-shadow: 4px 2px 15px rgba(255, 255, 255, 0.65);
+}
+.navbar-dark a.navbar-brand:hover, .nav-item a .nav-link:hover{
+	color:#f2f7ff;
+	text-shadow:none;
+}
+/* Try #eff5ff or #f2f7ff for possible navbar color*/
+/* Make a class to select on mouseover in javascript to turn "Never Sad" and other button
+"lights" on and off. - or just change hover effects in css*/
+
+.navbar-dark .navbar-nav a.nav-link{
+    color:#fff;
+	text-shadow: 4px 2px 30px rgba(255, 255, 255, 0.65);	
+}
+.navbar-dark .navbar-nav a.nav-link:hover{
+	color:#eff5ff;
+	text-shadow:none;
+}
+/*div.jumbotron.topjumbo{
+	background-image:url(https://i.imgur.com/tJKZnkK.jpg?1);
+	background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center 25%;
+    width:100%;
+    min-height:375px;
+    color:white;
+    padding-top:10px;
+    margin-bottom:0;
+}
+.jumbotron h5{
+	font-weight:200;
+	font-family:'helvetica';
+	font-size:20px;
+}
+.aboutcontact{
+	margin-bottom:20px;
+}
+.about{
+    padding:20px;
+	background-color:#84d6f9;
+	font-size:1.8vmax;
+}
+.about p{
+	text-align:center;
+}
+.about h6{
+	font-weight:bold;
+	padding-left:8px;
+}
+.about a:link{
+	color:#f2f7ff;
+}
+.about a:visited{
+	color:purple;
+}
+.about a:hover{
+	color:purple;
+}
+.contact{
+	padding-top:20px;
+	text-align:center;
+	background-color:#84d6f9;
+}
+.contact a i.fa-3x{
+	margin-bottom:10px;
+	color:#3c3f42;
+    font-size:5.3vw;
+}
+img:not(.card img){
+	width:300px;
+	height:300px;
+}
+.col-sm-6{
+	text-align:center;
+	margin-bottom:20px;
+}
+.col-sm-6 h4{
+	margin-top:10px;
+	margin-bottom:10px;
+
+}*/
+.videospot{
+	background-color:#6542f4;
+	color:white;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+}
+.videospot p{
+	font-size:2vmax;
+	padding-top:50%;
+}
+.blockquote{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.footer{
+	background-color:black;
+	color:white;
+	text-align:center;
+	
+}
+
